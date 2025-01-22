@@ -3,11 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000; /* Fond noir */
-    color: #ffffff; /* Texte en blanc */
-    display: flex; /* Permet de placer les enfants (image et contenu) côte à côte */
-    flex-direction: row; /* Organise les éléments horizontalement */
-    height: 100vh; /* La page occupe toute la hauteur de la fenêtre */
+    background-color: #000000; 
+    color: #ffffff; 
+    display: flex; 
+    flex-direction: row;
+    height: 100vh; 
 }
 
 /* Section de l'image */
