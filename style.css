@@ -1,0 +1,57 @@
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fond noir */
+    color: #ffffff; /* Texte en blanc */
+    display: flex; /* Permet de placer les enfants (image et contenu) côte à côte */
+    flex-direction: row; /* Organise les éléments horizontalement */
+    height: 100vh; /* La page occupe toute la hauteur de la fenêtre */
+}
+
+/* Section de l'image */
+.image-section {
+    width: 40%; /* L'image occupe 40% de la largeur */
+    height: 100%; /* L'image prend toute la hauteur de la page */
+    background-image: url("images/piano.jpeg"); /* Utilise l'image piano.jpeg comme fond */
+    background-size: cover; /* Adapte l'image au conteneur sans déformation */
+    background-position: center; /* Centre l'image */
+}
+
+/* Section du contenu */
+.content-section {
+    width: 60%; /* Le contenu occupe 60% de la largeur */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligne le contenu du haut vers le bas */
+}
+
+/* Titre */
+.content-section h1 {
+    margin-top: 0; /* Évite un espace vide au-dessus du titre */
+}
+
+/* Bouton */
+button.btn {
+    background: #0078d7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: flex-start; /* Aligne le bouton à gauche */
+}
+
+button.btn:hover {
+    background: #005bb5;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: white;
+}
