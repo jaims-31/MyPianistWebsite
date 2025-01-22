@@ -33,7 +33,7 @@ body {
     margin-top: 0; 
 }
 
-/* Bouton */
+/* Bouton About */
 button.btn {
     background: #0078d7;
     color: white;
@@ -44,9 +44,11 @@ button.btn {
     align-self: flex-start; 
 }
 
+
 button.btn:hover {
     background: #005bb5;
 }
+
 
 
 footer {
@@ -54,4 +56,15 @@ footer {
     padding: 1rem 0;
     background: #333;
     color: white;
+}
+
+.video-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-section video {
+    border: 3px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 4, 4, 0.911);
 }
