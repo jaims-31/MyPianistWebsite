@@ -69,10 +69,11 @@ footer {
     box-shadow: 0 4px 10px rgba(255, 4, 4, 0.911);
 }
 
+/* Section des icones réseaux */
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 100px;
 }
 
 .social-icons a {
@@ -84,4 +85,10 @@ footer {
 
 .social-icons a:hover {
     color: #0073e6; 
+}
+
+
+/* Bannière Spotify */
+.spotify-section { 
+    margin-top: 30px;;
 }
